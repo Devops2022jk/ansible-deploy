@@ -4,8 +4,8 @@ EXPOSE 8070
 
 ENV APP_HOME /usr/src/app
 
-COPY shopping-cart-0.0.1-SNAPSHOT.jar $APP_HOME/app.jar
+#COPY shopping-cart-0.0.1-SNAPSHOT.jar $APP_HOME/app.jar
 
 WORKDIR $APP_HOME
 
-ENTRYPOINT exec java -jar app.jar
+#ENTRYPOINT exec java -jar app.jar
